@@ -1,0 +1,130 @@
+#head{
+    width:100%;
+    height:90px;
+    margin-top:52px;
+    padding-bottom: 76px;
+    div{
+        width:340px;
+        height:90px;
+        margin-left:170px;
+    }
+}
+#enroll{
+    width:317px;
+    height:423px;
+    margin-left:798px;
+    p{
+        display:inline-block;
+    }
+    .zhuce{
+        font-size: 22px;
+        color:#c41f3a;
+        padding-right:101px;
+        padding-bottom: 33px;
+    }
+    .zhuce-right{
+        font-size: 11px;
+        span{
+            color:#c41f3a;
+        }
+    }
+    #name,#pcw,#pcw2{
+        width:299px;
+        height:37px;
+        border:1px solid #c8c8c8;
+        color:#666;
+        margin-bottom:36px;
+    }
+    #img-verify{
+        display: inline-block;
+        
+        border: 1px solid #c8c8c8;
+        border-radius: 5px;
+        #canvaser{
+            width:100px;
+            height:37px;
+        }
+    }
+    #image-verify,#new-verify{
+        width:163px;
+        height:37px;
+        border:1px solid #c8c8c8;
+        margin-bottom: 11px;
+        color:#666;
+    }
+    #get-verify{
+        width:102px;
+        height:33px;
+        border:2px solid #949494;
+        border-radius: 5px;
+    }
+    #new-verify{
+        margin-bottom:36px;
+    }
+    #pcw,#pcw2{
+        margin-bottom:10px;
+    }
+    i{
+        font-size: 11px;
+        margin-top:14px;
+        padding-right: 155px;
+        input{
+            margin-top:5px;
+        }
+    }
+    p{
+        font-size: 11px;
+    }
+    #btn{
+        width:100%;
+        height:40px;
+        margin-top:12px;
+        background:#94193f;
+        border:none;
+        color:#fff;
+        font-weight: 600;
+        &:hover{
+            background:#a82045;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#brandbg{
+    width:100%;
+    height:90px;
+    background:#f3f3f3;
+    p{
+        text-align: center;
+        font-size: 12px;
+        color:#666;
+        margin-top:18px;
+    }
+    ul{
+        padding-top:18px;
+        text-align: center;
+        li{
+            display:inline-block;
+            padding:0 10px;
+            border-right:1px solid #666;
+            color:#666;
+        }
+    }
+}
