@@ -552,3 +552,153 @@ $w:100%;
         }
     }
 }
+
+#typebg{
+    width:100%;
+    height:57px;
+    #type{
+        width:1200px;
+        height:57px;
+        border-bottom: 1px solid #666;
+        margin-left:$margin-left;
+        p{
+            line-height: 57px;
+            color:#666;
+            margin-left:8px;
+            span{
+                margin-left: 17px;
+                margin-right: 21px;
+            }
+        }
+    }
+}
+
+
+#optionbg{
+    margin-top:20px;
+    width:100%;
+    height:42px;
+    #option{
+        width:1198px;
+        height:40px;
+        margin-left:$margin-left;
+        border:1px solid #666;
+        margin-bottom:25px;
+        ul{
+            li{
+                float:left;
+                line-height: 40px;
+                padding:0 30px;
+                a{
+                    float:left;
+                }
+                .two{
+                    float:left;
+                    display: block;
+                    width:6px;
+                    height:10px;
+                    margin-left:2px;
+                    margin-top:17px;
+                    background:url("../img/icon_list.png");
+                    background-position: -89px -689px;
+                }
+                .three{
+                    float:left;
+                    display: block;
+                    width:6px;
+                    margin-left:2px;
+                    height:13px;margin-top:15px;
+                    background:url("../img/icon_list.png");
+                    background-position: -157px -651px;
+                }
+                .four{
+                    float:left;
+                    display: block;
+                    width:6px;
+                    margin-left:2px;
+                    height:13px;margin-top:15px;
+                    background:url("../img/icon_list.png");
+                    background-position: -157px -651px;
+                }
+            }
+            .border-right{
+                a{
+                    color:red;
+                }
+                border-right: 1px solid #666;
+            }
+        }
+    }
+}
+
+
+
+
+#shopbg{
+    margin-top:25px;
+    width:100%;
+    #shop{
+        width:1245px;
+        margin-left:$margin-left;
+        ul{
+            li{
+                float:left;
+                width:291px;
+                height:375px;
+                border:1px solid #e4e4e4;
+                margin-right: 9px;
+                margin-bottom:23px;
+                img{
+                    width:291px;
+                }
+                .price{
+                    color:#94193f;
+                    font-size: 15px;
+                    margin-top:17px;
+                    margin-left: 15px;
+                }
+                .name{
+                    font-size: 12px;
+                    color:#434343;
+                    margin-left:15px;
+                    margin-top:10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#brandbg{
+    border-top:1px solid #f3f3f3;
+    width:$w;
+    height:90px;
+    background:#f3f3f3;
+    p{
+        text-align: center;
+        font-size: 12px;
+        color:#666;
+        margin-top:13px;
+    }
+    ul{
+        padding-top:13px;
+        text-align: center;
+        li{
+            display:inline-block;
+            padding:0 10px;
+            border-right:1px solid #666;
+            color:#666;
+        }
+    }
+}
