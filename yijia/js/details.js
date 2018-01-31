@@ -34,12 +34,16 @@ function imgnew(){
 				}
 				$("#shop ul").html(html);
 			}
-			
 		}
 	}
 }
 
-
-	
-	
+	typeP();
+	function typeP (){
+		var oP = document.getElementById("type").getElementsByTagName("p")[0];
+		var str = location.href;
+		str = str.split("?")[1];
+		var name = str.split("=")[1];
+		oP.innerHTML += `<span>></span><i>${name}</i>`
+	}	
 }

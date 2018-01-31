@@ -409,7 +409,7 @@ $margin-left:63px;
                         
                     }
                     &:hover img{
-                        transform: scale(1.1,1.1);
+                        transform: scale(1.05,1.05);
                     }
                     div{
                         width:100%;
@@ -648,7 +648,6 @@ $margin-left:63px;
     }
 }
 #brandbg{
-    width:$w;
     border:1px solid #f3f3f3;
     height:90px;
     background:#f3f3f3;
@@ -780,6 +779,7 @@ $margin-left:63px;
                 color:#fff;
                 margin-left:9px;
                 margin-top:17px;
+                line-height:22px;
             }
             a{
                 color:#fff;
